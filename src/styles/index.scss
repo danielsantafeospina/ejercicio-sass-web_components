@@ -1,0 +1,41 @@
+$primary :  #92a8d1;
+$secundary: #034f84;
+
+$font-color: black;
+$general-padding: 10px;
+
+@import 'button.scss';
+
+body {
+  color: $font-color;
+  background: white;
+  font-family: sans-serif;
+  >header{
+    padding: $general-padding;
+    border: 1px solid black;
+  }
+  >footer{
+    margin-top: $general-padding;
+    padding: $general-padding;
+    border: 1px solid black;
+  }
+}
+
+.main-content{
+  display: flex;
+  padding-top: $general-padding;
+
+  .side-nav{
+    padding: $general-padding;
+    margin-right: $general-padding;
+    background: #92a8d1;
+    ul{
+      padding: 0px;
+      margin: 0px;
+      list-style: none;
+    }
+  }
+}
+
+
+
