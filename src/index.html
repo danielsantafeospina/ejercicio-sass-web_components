@@ -6,35 +6,100 @@
   <title>webpack starterkit</title>
 </head>
 <body>
-
   <header>
-    <h1>Titulo</h1>
-    <span>subtitulo</span>
-  </header>
-  <div class="main-content">
-    <nav class="side-nav">
-      <ul>
-        <li>Home</li>
-        <li>About us</li>
-        <li>Portfolio</li>
-        <li>Contact us</li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light top-navbar">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
     </nav>
-    <div class="content">
-       Heare is my content
-       <ul>
-        <li>1. git hub webpack (clone)</li>
-        <li>2. npm install</li>
-        <li>3. </li>
-        <li>4</li>
-      </ul>
-      <button class="btn primary">increment</button>
-      <button class="btn">decrement</button>
-    </div>
-  </div>
-  <footer>
-    fotter
-  </footer>
+  </header>
+  
+  <div class="main-container container">
 
+    <div class="card" style="width: 18rem;">
+      <img src="https://i.picsum.photos/id/25/600/300.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="https://i.picsum.photos/id/25/600/300.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="https://i.picsum.photos/id/25/600/300.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="https://i.picsum.photos/id/25/600/300.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <footer class="">
+    <div class="row">
+      <div class="col">
+        Contactenos
+        <ul class="list-group">
+          <li class="list-group-item">Colombia</li>
+          <li class="list-group-item">China</li>
+          <li class="list-group-item">USA</li>
+        </ul>
+      </div>
+      <div class="col">Aliados</div>
+      <div class="col">Clientes</div>
+      <div class="col">Paises</div>
+    </div>
+  </footer>
 </body>
 </html>
