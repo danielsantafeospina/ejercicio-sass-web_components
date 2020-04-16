@@ -1,6 +1,7 @@
 # Proyecto de programacion 3
-En este proyecto se manejaran conceptos de webpack
-Sass y ECS6 con el manejo de web components
+En este proyecto se manejaran conceptos de webpack Sass y ECS6 con el manejo de web components.
+
+
 Se crea una calculadora en html realizando todos los procedimientos realizados en clase.
 
 
